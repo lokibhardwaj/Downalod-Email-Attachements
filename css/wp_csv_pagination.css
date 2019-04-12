@@ -1,0 +1,74 @@
+.navi {
+	width: 500px;
+	margin: 5px;
+	padding:2px 5px;
+	border:1px solid #eee;
+	}
+
+	.show {
+	color: blue;
+	margin: 5px 0;
+	padding: 3px 5px;
+	cursor: pointer;
+	font: 15px/19px Arial,Helvetica,sans-serif;
+	}
+	.show a {
+	text-decoration: none;
+	}
+	.show:hover {
+	text-decoration: underline;
+	}
+
+
+	ul.setPaginate li.setPage{
+	padding:15px 10px;
+	font-size:14px;
+	}
+
+ul.setPaginate {
+  float: left;
+  font: 12px "Tahoma";
+  height: 100%;
+  list-style-type: none !important;
+  margin: 12px auto 0;
+  padding: 0;
+  text-align: right;
+  width: 75%;
+}
+
+	ul.setPaginate li.dot{padding: 3px 0;}
+
+ul.setPaginate li {
+  display: inline-block;
+  margin: 0 0 0 5px;
+  padding: 0;
+}
+
+
+
+	ul.setPaginate li a
+	{
+	background: none repeat scroll 0 0 #ffffff;
+	border: 1px solid #cccccc;
+	color: #999999;
+	display: inline-block;
+	font: 15px/25px Arial,Helvetica,sans-serif;
+	margin: 5px 3px 0 0;
+	padding: 0 5px;
+	text-align: center;
+	text-decoration: none;
+	}	
+
+ul.setPaginate li a:hover, ul.setPaginate li a.current_page {
+  background: #ebe9eb none repeat scroll 0 0;
+  border: 1px solid #d3ced2;
+  color: #8a7e88;
+  text-decoration: none;
+}
+
+ul.setPaginate li a {
+  color: #2ea3f2;
+  display: block;
+  padding: 5px 8px;
+  text-decoration: none;
+}
